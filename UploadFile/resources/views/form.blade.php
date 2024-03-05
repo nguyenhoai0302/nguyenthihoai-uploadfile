@@ -1,4 +1,4 @@
-<form action="{{ 'upload' }}" method="POST" enctype="multipart/form-data">
+<form action="{{'upload'}}" method="POST" enctype="multipart/form-data">
     @csrf
 
     <h1>Form Upload file PHP</h1>
